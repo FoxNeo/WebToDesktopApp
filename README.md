@@ -5,6 +5,7 @@
 This is a minimal Electron application.
 If you want to fully port a Web page to a desktop application on Windows, Linux and mac, this is the software you need. First follow the steps in the next section below. If you want to build your App to binaries you have to use [electron-packer](https://www.npmjs.com/package/electron-packager)
 
+![](https://i.imgur.com/KIJ4dUy.png)
 
 ## To Use
 
@@ -33,3 +34,6 @@ npm start
 ## License
 
 [GNU General Public License v3.0](LICENSE)
+
+## Fix issue with electron on linux
+* [chrome sandbox error](https://github.com/electron/electron/issues/17972)
